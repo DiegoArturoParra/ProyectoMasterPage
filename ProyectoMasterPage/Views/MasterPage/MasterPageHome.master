@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controllers/MasterPageHome.master.cs" Inherits="Views_MasterPage_MasterPageHome" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- css files -->
+	<link rel="stylesheet" href="../../App_Themes/Assets/Home/css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="../../App_Themes/Assets/Home/css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="../../App_Themes/Assets/Home/css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
+	<!-- //css files -->
+	<!--web font--><link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--//web font-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContenidoDelPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <header>
+            <div class="container" id="home">
+                <!-- nav -->
+                <nav class="py-4">
+                    <div id="logo">
+                        <h1><a href="#index.html"><span class="fa fa-rebel" aria-hidden="true"></span>Master Home</a></h1>
+                    </div>
+
+                    <label for="drop" class="toggle">Menu</label>
+                    <input type="checkbox" id="drop" />
+                    <ul class="menu mt-2">
+                        <li class="mr-lg-4 mr-3 active"><a href="../Home/Default.aspx">Home</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">Iniciar Sesión</a></li>
+                    </ul>
+                </nav>
+                <!-- //nav -->
+            </div>
+        </header>
+        <!-- //header -->
+
+        <!-- banner -->
+        <section class="banner">
+            <div class="banner-layer">
+                <div class="container">
+                    <div class="row w3pvt_banner_info">
+                        <div class="col-md-8 w3layouts_banner_margin">
+                            <h3 class="editContent">Mi nombre es </h3>
+                            <h2 class="editContent">Diego Parra</h2>
+                            <h4></h4>
+                            <p>Master Page Inicial.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //banner -->
+    </form>
+</body>
+</html>
