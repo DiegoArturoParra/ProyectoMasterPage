@@ -11,4 +11,18 @@ public partial class Views_Pqr_CreateForm : System.Web.UI.Page
     {
 
     }
+
+    protected void BtnGuardar_Click(object sender, EventArgs e)
+    {
+        EPqr pqr = new EPqr();
+
+        pqr.Direccion = inputDireccion.Text;
+        pqr.Email = inputEmail.Text;
+        pqr.Nombre = inputNombre.Text;
+        pqr.Telefono = inputTelefono.Text;
+        pqr.Identificacion = inputIdentificacion.Text;
+        pqr.IdTipoIdentificacion = int.Parse(listIdentificacion.SelectedValue);
+        pqr.IdTipoSolicitud = int.Parse(listSolicitud.SelectedValue);
+        new DaoPqr().insertarPqr(pqr);
+    }
 }
