@@ -17,5 +17,8 @@ public class Mapeo : DbContext
     public DbSet<EPqr> ePqrs { get; set; }
     public DbSet<EIdentificacion> identificacion { get; set; }
     public DbSet<ESolicitud> solicitud { get; set; }
+    public DbSet<EComponentesPC> componentesPC { get; set; }
+    public DbSet<ELibro> libro { get; set; }
+    public DbSet<EJuego> game { get; set; }
 
 }

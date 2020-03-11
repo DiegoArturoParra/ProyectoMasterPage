@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controllers/MasterPageJuegos.master.cs" Inherits="Views_MasterPage_MasterPageJuegos" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Custom Theme files -->
+    <link href="../../App_Themes/Assets/Graficos/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="../../App_Themes/Assets/Graficos/css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- font-awesome icons -->
+    <link href="../../App_Themes/Assets/Graficos/css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <!-- //online-fonts -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section class="main-banner" id="home">
+        <div class="layer">
+            <div class="header-wthree-top-w3layouts text-right">
+                <h1 class="logo"><a href="../Home/Default.aspx">Home</a></h1>
+                <ul class="list-unstyled apps-lists text-right">
+                    <li>
+                        <a href="../Juegos/CreateForm.aspx" class="btn">Insertar Datos</a>
+                    </li>
+                    <li class="ml-2">
+                        <a href="../Juegos/IndexForm.aspx" class="btn">Ver Datos</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+    </section>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolderJuegos" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

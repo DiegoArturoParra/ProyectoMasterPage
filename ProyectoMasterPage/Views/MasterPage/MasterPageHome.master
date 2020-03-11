@@ -34,7 +34,12 @@
                     <input type="checkbox" id="drop" />
                     <ul class="menu mt-2">
                         <li class="mr-lg-4 mr-3 active"><a href="../Home/Default.aspx">Home</a></li>
-                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">Iniciar Sesión</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">ComponentesPC</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">Juegos</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">Usuarios</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">PQR</a></li>
+                        <li class="mr-lg-4 mr-3"><a href="../Login/FormLogin.aspx">Libros</a></li>
+
                     </ul>
                 </nav>
                 <!-- //nav -->

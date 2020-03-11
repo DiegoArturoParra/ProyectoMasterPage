@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controllers/MasterPageComponentespc.master.cs" Inherits="Views_MasterPage_MasterPageComponentespc" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controllers/MasterPageLibros.master.cs" Inherits="Views_MasterPage_MasterPageLibros" %>
 
 <!DOCTYPE html>
 
@@ -25,17 +25,17 @@
                     <h1 class="logo"><a href="../Home/Default.aspx">Home</a></h1>
                     <ul class="list-unstyled apps-lists text-right">
                         <li>
-                            <a href="../ComponentesPC/CreateForm.aspx" class="btn">Insertar Datos</a>
+                            <a href="../Libros/CreateForm.aspx" class="btn">Insertar Datos</a>
                         </li>
                         <li class="ml-2">
-                            <a href="../ComponentesPC/IndexForm.aspx" class="btn">Ver Datos</a>
+                            <a href="../Libros/IndexForm.aspx" class="btn">Ver Datos</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolderComponentes" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderLibros" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>

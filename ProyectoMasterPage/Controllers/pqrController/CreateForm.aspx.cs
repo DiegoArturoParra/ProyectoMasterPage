@@ -23,6 +23,7 @@ public partial class Views_Pqr_CreateForm : System.Web.UI.Page
         pqr.Identificacion = inputIdentificacion.Text;
         pqr.IdTipoIdentificacion = int.Parse(listIdentificacion.SelectedValue);
         pqr.IdTipoSolicitud = int.Parse(listSolicitud.SelectedValue);
+        pqr.Descripcion = inputDescripcion.Text;
         new DaoPqr().insertarPqr(pqr);
     }
 }

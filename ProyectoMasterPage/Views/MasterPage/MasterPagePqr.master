@@ -29,6 +29,7 @@
                     <div class="header-right d-flex align-items-center">
                         <a href="../Home/Default.aspx" class="btn btn-outline-dark d-none d-md-block btn-outline-style mr-4">Home</a>
                         <a href="../Pqr/CreateForm.aspx" class="btn btn-outline-dark d-none d-md-block btn-outline-style mr-4">Insertar Datos</a>
+                        <a href="../Pqr/IndexForm.aspx" class="btn btn-outline-dark d-none d-md-block btn-outline-style mr-4">Ver Datos</a>
 
                     </div>
                 </div>
@@ -41,3 +42,4 @@
     </form>
 </body>
 </html>
+
